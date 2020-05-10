@@ -92,14 +92,14 @@
         width: 20%;
         padding-left: 1%;
     }
-    .bgm/*设置BGM格式*/
+    .bgm/*外链播放器格式*/
     {
         position: fixed;
         width: 20%;
         bottom: 35%;
         right: 1.5%;
     }
-    .bgm2
+    .bgm2/*本地播放器格式*/
     {
         position: fixed;
         width: 15%;
@@ -110,9 +110,9 @@
 </head>
 <!--背景-->
 <body background="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1588960229048&di=b600199eb0f5cc964318a650642c41ce&imgtype=0&src=http%3A%2F%2Fb-ssl.duitang.com%2Fuploads%2Fitem%2F201801%2F29%2F20180129110648_YXvnR.jpeg">
-<p id="tit">虚拟歌手—洛天依！</p>
-<div class="bgm2">
-    <iframe frameborder="no" marginwidth="0" marginheight="0" width=198 height=52 src="http://music.163.com/outchain/player?type=2&id=1302601503&auto=0&height=32"></iframe>
+<p id="tit">虚拟歌手—洛天依！</p><!--标题-->
+<div class="bgm2"><!--外链播放器-->>
+    <iframe frameborder="no" marginwidth="0" marginheight="0" width=198 height=52 src="https://music.163.com/outchain/player?type=2&id=1302601503&auto=0&height=32"></iframe>
 </div>
     <div class="guild"><!--右目录-->
         <br />
@@ -261,15 +261,15 @@
             <br />
             <br />
             <br />
-            <div style="padding-left: 17%;"><img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1589022237832&di=c62884b645d347805cf361190707e384&imgtype=0&src=http%3A%2F%2Fi0.hdslb.com%2Fbfs%2Farticle%2Ff84494c5440e4d7918b4d50eb1c3447c8ed53822.jpg" width="600" height="400"></div>
+            <div style="padding-left: 17%;"><img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1589022237832&di=c62884b645d347805cf361190707e384&imgtype=0&src=http%3A%2F%2Fi0.hdslb.com%2Fbfs%2Farticle%2Ff84494c5440e4d7918b4d50eb1c3447c8ed53822.jpg" width="600" height="400" title="洛天依"></div>
             <br />
             <br />
-            <div style="padding-left: 11%;"><img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1589022243375&di=66625033b1d43bcebffaf02f8678b566&imgtype=0&src=http%3A%2F%2Fi0.hdslb.com%2Fbfs%2Farticle%2Fdb29a2599f13b19645d9ba75abd23d24a6e76171.jpg" width="700" height="530"></div>
+            <div style="padding-left: 11%;"><img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1589022243375&di=66625033b1d43bcebffaf02f8678b566&imgtype=0&src=http%3A%2F%2Fi0.hdslb.com%2Fbfs%2Farticle%2Fdb29a2599f13b19645d9ba75abd23d24a6e76171.jpg" width="700" height="530" title="洛天依"></div>
             <br />
             <br />
-            <div style="padding-left: 12%;"><img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1589024003379&di=7ed8f5bfe3dbaff8c07a921a576e83ff&imgtype=0&src=http%3A%2F%2Fi0.hdslb.com%2Fbfs%2Farticle%2F23cd3ca6aaa400e5632ee0e2ac4abd6609f20d59.jpg" width="700" height="467"></div>
+            <div style="padding-left: 12%;"><img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1589024003379&di=7ed8f5bfe3dbaff8c07a921a576e83ff&imgtype=0&src=http%3A%2F%2Fi0.hdslb.com%2Fbfs%2Farticle%2F23cd3ca6aaa400e5632ee0e2ac4abd6609f20d59.jpg" width="700" height="467" title="洛天依"></div>
             <br />
-            <!--BGM-->
+            <!--本地播放器（注释部分）-->
                 <!--<audio controls class="bgm">
                     <source src="image/music.mp3" type="audio/mpeg" >
                 </audio>-->
@@ -278,11 +278,11 @@
                 <br />
                 <br />
                 <div style="padding-left: 10%;">
-                    <iframe src="http://player.bilibili.com/player.html?aid=58824435&bvid=BV1dt41157ZF&cid=102556136&page=1" width="700" height="450" scrolling="no" border="0"  frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+                    <iframe src="https://player.bilibili.com/player.html?aid=58824435&bvid=BV1dt41157ZF&cid=102556136&page=1" width="700" height="450" scrolling="no" border="0"  frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
                 </div>
             <br />
             <br />
-            <p style="color:rgb(129, 93, 230) ;">以上就是全部内容啦！还想更多的了解洛天依的话，请点击这里-><a href="https://baike.baidu.com/item/%E6%B4%9B%E5%A4%A9%E4%BE%9D/6753346?fr=aladdin" id="con" target="_blank">更多</a></p>
+            <p  style="color:rgb(129, 93, 230) ;">以上就是全部内容啦！还想更多的了解洛天依的话，请点击这里-><a  class="con" href="https://baike.baidu.com/item/%E6%B4%9B%E5%A4%A9%E4%BE%9D/6753346?fr=aladdin" id="con" target="_blank" >更多</a></p>
             <br />
             <br />
 </div>
